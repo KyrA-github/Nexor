@@ -1,0 +1,16 @@
+build/
+bin/
+.vscode/
+x64/
+debug/
+
+.exe
+.dll
+.so
+.out
+
+.tmp
+.log
+.smp
+.bak
+
