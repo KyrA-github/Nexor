@@ -13,5 +13,5 @@ file(MAKE_DIRECTORY ${CMAKE_BINARY_DIR})
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR})
 
 # Добавьте исходные файлы вашего проекта
-add_executable(MyExecutable main.cpp)
+add_executable(Nexor main.cpp globals.h)
 
