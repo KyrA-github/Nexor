@@ -4,8 +4,20 @@
     <ClCompile Include="E:\C_Projects_VS\cmake_project\project_1\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E:\C_Projects_VS\cmake_project\project_1\compiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\C_Projects_VS\cmake_project\project_1\filemake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="E:\C_Projects_VS\cmake_project\project_1\compiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\C_Projects_VS\cmake_project\project_1\filemake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="E:\C_Projects_VS\cmake_project\project_1\globals.h">
       <Filter>Header Files</Filter>
     </ClInclude>

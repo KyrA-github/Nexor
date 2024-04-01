@@ -310,6 +310,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="E:\C_Projects_VS\cmake_project\project_1\main.cpp" />
+    <ClCompile Include="E:\C_Projects_VS\cmake_project\project_1\compiler.cpp" />
+    <ClCompile Include="E:\C_Projects_VS\cmake_project\project_1\filemake.cpp" />
+    <ClInclude Include="E:\C_Projects_VS\cmake_project\project_1\compiler.h" />
+    <ClInclude Include="E:\C_Projects_VS\cmake_project\project_1\filemake.h" />
     <ClInclude Include="E:\C_Projects_VS\cmake_project\project_1\globals.h" />
   </ItemGroup>
   <ItemGroup>

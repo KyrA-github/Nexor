@@ -21,9 +21,7 @@ private:
     };
 
 public:
-    filemake();
     void file_make_read();
     compiler_info getCompilerInfo() const;
-    ~filemake();
 };
 

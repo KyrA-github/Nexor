@@ -6,9 +6,7 @@ class compiler
 private:
     
 public:
-    compiler();
-    
-    ~compiler();
+
 };
 
 
