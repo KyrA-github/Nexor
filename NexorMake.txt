@@ -1,0 +1,8 @@
+version=1.0
+
+compiler=g++
+#compiler std=c++11
+make_dir=Nexor/
+output_dir=Nexor/debug/
+
+source_files=main.nxr
