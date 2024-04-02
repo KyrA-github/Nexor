@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(MyProject)
+project(Nexor)
 
 # Укажите, что требуется C++ компилятор g++
 set(CMAKE_CXX_COMPILER "g++")

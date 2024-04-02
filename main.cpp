@@ -1,6 +1,6 @@
-#include "globals.h"
-#include "compiler.h"
-#include "filemake.h"
+#include "globals.hpp"
+#include "compiler.hpp"
+#include "filemake.hpp"
 
 using namespace std;
 

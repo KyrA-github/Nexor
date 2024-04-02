@@ -1,4 +1,4 @@
-#include "filemake.h"
+#include "filemake.hpp"
 
 void filemake::file_make_read(){
     ifstream myfile(file_dir_name);
@@ -36,6 +36,10 @@ void filemake::file_make_read(){
                     else if (left_part == "output_dir")
                     {
                         cmp_inf.output_dir = right_part;
+                    }
+                    else if (left_part == "output_cpp")
+                    {
+                        cmp_inf.output_cpp = right_part;
                     }
                 }
             }

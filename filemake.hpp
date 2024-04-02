@@ -1,5 +1,5 @@
 #pragma once
-#include "globals.h"
+#include "globals.hpp"
 
 class filemake
 {
@@ -18,6 +18,7 @@ private:
         string make_dir;
         string make_file;
         string output_dir;
+        string output_cpp;
     };
 
 public:
