@@ -7,18 +7,15 @@
     <ClCompile Include="E:\C_Projects_VS\cmake_project\project_1\compiler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\C_Projects_VS\cmake_project\project_1\filemake.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\C_Projects_VS\cmake_project\project_1\compiler.h">
+    <ClInclude Include="E:\C_Projects_VS\cmake_project\project_1\compiler.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\C_Projects_VS\cmake_project\project_1\filemake.h">
+    <ClInclude Include="E:\C_Projects_VS\cmake_project\project_1\globals.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\C_Projects_VS\cmake_project\project_1\globals.h">
+    <ClInclude Include="E:\C_Projects_VS\cmake_project\project_1\struct.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

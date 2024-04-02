@@ -1,6 +1,0 @@
-version=1.0
-compiler=g++
-make_dir=E:\C_Projects_VS\cmake_project\project_1\Nexor
-output_dir=E:\C_Projects_VS\cmake_project\project_1\Nexor
-output_cpp=pri.cpp
-source_files=main.nxr

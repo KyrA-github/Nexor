@@ -1,3 +1,4 @@
+#include <windows.h>
 #include "globals.hpp"
 #include "compiler.hpp"
 #include "filemake.hpp"
@@ -5,6 +6,15 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
+    string currentDir;
+    char buffer[MAX_PATH];
+
+    if (GetCurrentDirectory(MAX_PATH, buffer) != 0) {
+        string currentDir = buffer;
+    } else {
+        cerr << "Error getting current working directory\n";
+        return 1;
+    }
 
     string for_argv;
     string list_argv[3] = {"_","_","_"};;
@@ -25,8 +35,9 @@ int main(int argc, char *argv[]) {
     }
     else if (list_argv[1] == "make")
     {
-        filemake file;
-        file.file_make_read();
+        cout << 1 << endl;
+        compiler cmp;
+        cmp.file_make_read(currentDir);
     }
     else if (list_argv[1] == "make" && list_argv[2] == "-e")
     {
