@@ -1,6 +1,6 @@
 #pragma once
 #include "globals.hpp"
-#include "filemake.hpp"
+#include "struct.hpp"
 
 class compiler
 {

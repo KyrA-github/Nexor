@@ -1,7 +1,6 @@
 #include <windows.h>
 #include "globals.hpp"
 #include "compiler.hpp"
-#include "filemake.hpp"
 
 using namespace std;
 
@@ -35,7 +34,6 @@ int main(int argc, char *argv[]) {
     }
     else if (list_argv[1] == "make")
     {
-        cout << 1 << endl;
         compiler cmp;
         cmp.file_make_read(currentDir);
     }

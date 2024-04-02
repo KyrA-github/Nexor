@@ -2,7 +2,6 @@
 
 void compiler::compiler_read()
 {   
-    cout << cmp_inf.make_dir << cmp_inf.make_file << endl;
     ifstream file_sourse(cmp_inf.make_dir + cmp_inf.make_file);
 
     if (file_sourse.is_open())
@@ -11,7 +10,6 @@ void compiler::compiler_read()
         file(cmp_inf.output_dir + cmp_inf.output_cpp, 1, "");
         while (getline(file_sourse, line_f))
         {
-            cout << 2 << endl;
             line_len += 1;
             if(compilation(cmp_inf.output_dir + cmp_inf.output_cpp))
             {
@@ -40,7 +38,6 @@ bool compiler::compilation(string file_name)
     for (const auto& phrase : phrases) {
         size_t pos = str.find(phrase);
         if (pos != string::npos) {
-            cout << "String :" << phrase << "Pos:" << pos << endl;
             if (phrase == "!import") 
             {
                 file(file_name, 3, codes[0]);
@@ -93,8 +90,6 @@ int compiler::file(string file_name, int operation, string data)
     }
     
 }
-
-
 
 void compiler::file_make_read(string currentDir)
 {
