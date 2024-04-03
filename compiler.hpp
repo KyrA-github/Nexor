@@ -9,9 +9,10 @@ public:
     void file_make_read(string currentDir);
 private:
     compiler_info cmp_inf;
+
     string codes[10] = 
     {
-        "#include "
+        "\n", "#include ", "<iostream>"
     };
 
     int line_len = 0;
@@ -29,6 +30,17 @@ private:
     string str_m;
     string right_part_m;
     string left_part_m;
+    string line_m;
+
+    size_t pos_c;
+    size_t pos_commit_c;
+
+    string file_dir_name_c;
+
+    string str_c;
+    string right_part_c;
+    string left_part_c;
+    string line_c;
 
     struct compiler_info {
         float compiler_version;
@@ -39,7 +51,8 @@ private:
         string output_cpp;
     };
     
-    string line_m;
+    vector<string> phrases = {"import"};
+    
 
     bool compilation(string file_name);
     int file(string file_name, int operation, string data);

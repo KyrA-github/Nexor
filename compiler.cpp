@@ -33,14 +33,26 @@ void compiler::compiler_read()
 bool compiler::compilation(string file_name)
 {
     str = line_f;
-    vector<string> phrases = {"!import"};
+    str_c = line_f;
 
     for (const auto& phrase : phrases) {
         size_t pos = str.find(phrase);
         if (pos != string::npos) {
-            if (phrase == "!import") 
+            if (phrase == "import") 
             {
                 file(file_name, 3, codes[0]);
+                file(file_name, 3, codes[1]);
+                pos_commit_c = str_c.find(' ');
+                if (pos_commit_c == string::npos) {
+                    left_part_c = str_c.substr(0, pos_commit_c);
+                    right_part_c = str_c.substr(pos_commit_c + 1);
+                    if (right_part_c == "base")
+                    {
+                        file(file_name, 3, codes[2]);
+                    }
+                    
+                }
+                
             }
         } else {
             
